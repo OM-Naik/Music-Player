@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="img/Om logo.png" alt="Om logo" srcset="" id="logo">
+    <div class="music-player">
+        <div class="cover">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f3/9e/2ff39eda-e1bc-82ce-ba50-ecf81420b511/859792403090_cover.jpg/1200x1200bf-60.jpg" alt="Album Cover" id="cover">
+        </div>
+        <div class="details">
+            <h2 id="title">Song Title</h2>
+            <h3 id="artist">Artist Name</h3>
+        </div>
+        <div class="controls">
+            <button id="prev" class="btn">⏮</button>
+            <button id="play" class="btn">▶️</button>
+            <button id="next" class="btn">⏭</button>
+        </div>
+        <div class="progress-container">
+            <input type="range" id="progress" value="0" step="0.1">
+            <div class="time">
+                <span id="currentTime">0:00</span> <span id="duration">0:00</span>
+            </div>
+        </div>
+        <audio id="audio" src="Chal Diye Tum Kahan.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
