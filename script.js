@@ -41,7 +41,7 @@ const songs = [
         title: 'Pehle Bhi Main',
         artist: 'Vishal Mishra',
         src: 'Music/Pehle Bhi Main.mp3',
-        cover: 'https:i.scdn.co/image/ab67616d0000b2735f3ede47954a93aa03efe5f9'
+        cover: 'https://i.scdn.co/image/ab67616d0000b2735f3ede47954a93aa03efe5f9'
     },
     {
         title: 'Mujhe Pyaar Hua Tha',
